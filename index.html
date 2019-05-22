@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Prototipo Web (V_1)</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css" >
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de...</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos...</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sporte...</a>
+            </li>
+            <li class="nav-item">
+              <div class="modal" id="myModal">
+
+               <!-- CUSTOM CSS -->
+
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <!-- dentro -->
+               <form action="" id="login">
+           <h2>Formulario de Login</h2>
+           <input type="text"placeholder="Correo" name="Correo" required="Correo">
+           <input type="password" placeholder="Contraseña" name="Pass" required="Pass">
+           <div class="input-group radio">
+                     <input type="radio" name="ID_Rol" id="ID_Rolu" value="1">
+                     <label for="ID_Rolu">Usuario</label>
+                     <input type="radio" name="ID_Rol" id="ID_Rola" value="2">
+                     <label for="ID_Rola">Administrador</label>
+                   </div>
+           <input type="submit" class="botonlg" value="Iniciar Sesion" >
+           <input type="submit" class="btn btn-danger" value="Cerrar"></input>
+                 </form>
+               </div>
+               </div>
+             </div>
+               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">tula</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row d-flex h-100">
+            <div class="col-sm-6 text-center justify-content-center align-self-center">
+              <h1>
+                Acercate y conoce el nuevo sistema innovador pensado únicamente en ti!
+              </h1>
+              <p>¿Quires conocernos? Preparamos un video para tí !</p>
+              <p>¡Qué esperas! Dale Clic al Botón!!!</p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                ¡Más Información!
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/logoV3.png" class="img-fluid d-none d-sm-block">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- FEATURES -->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3>Busca...</h3>
+                <p>
+                  Colaboradores que puedan ayudarte de manera rápida y eficaz.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h3>Encuentra...</h3>
+                <p>
+                  A los Colaboradores disponibles y más aptos para tus necesidades.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3>Clasifica...</h3>
+                <p>
+                  El desempeño, puntualidad y calidad de trabajo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h3>Comunica...</h3>
+                <p>
+                  Incomodidades, dudas o consultas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="m5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="m-5">
+            <h3>Nuestro Propósito Principal Es...</h3>
+            <p>
+              Cagar a la Muni Qlia Mala que no nos quizo atender ni apañar... Muni Qlia Callampa apoko no krnal?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="text-center team">
+      <div class="container p-5">
+        <h1 class="text-center text-white">Desarrolladores</h1>
+        <p class="text-white">
+          Equipo de trabajo Formado por Estudiantes de la Universidad de Victoria
+        </p>
+        <div class="row">
+
+          <!-- USER TEAM -->
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/toshi.jpg" class="img-fluid rounded-circle w-500">
+                <h3>Diego Calderón</h3>
+                <p>
+                  Diseñador, Programador.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/edy.jpg" class="img-fluid rounded-circle w-50">
+                <h3>Edinson Figueroa</h3>
+                <p>
+                  Encargado de Base de Datos, Programador.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/nico.jpg" class="img-fluid rounded-circle w-50">
+                <h3>Nicolás Burgos</h3>
+                <p>
+                  Documentador, Programador.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container p-3">
+        <div class="row text-center text-white">
+          <div class="col ml-auto">
+            <p>Copyright &copy; 2019</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+     <div class="modal" id="myModal">
+      <!-- CUSTOM CSS -->
+
+    <div class="modal-dialog">
+      <div class="modal-content"><!-- dentro -->
+      <form action="" id="login">
+  <h2>Formulario de Login</h2>
+  <input type="text"placeholder="Correo" name="Correo" required="Correo">
+  <input type="password" placeholder="Contraseña" name="Pass" required="Pass">
+  <div class="input-group radio">
+            <input type="radio" name="ID_Rol" id="ID_Rolu" value="1">
+            <label for="ID_Rolu">Usuario</label>
+            <input type="radio" name="ID_Rol" id="ID_Rola" value="2">
+            <label for="ID_Rola">Administrador</label>
+          </div>
+  <input type="submit" class="botonlg" value="Iniciar Secion" >
+  <input type="submit" class="btn btn-danger" value="Cerrar"></input>
+        </form>
+      </div>
+      </div>
+    </div>
+
+
+<!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  </body>
+</html>
